@@ -1,3 +1,21 @@
+/* Remove bullets from participants list */
+.participants-list.no-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Style for delete icon */
+.delete-participant {
+  color: #c00;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 1.1em;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+.delete-participant:hover {
+  color: #f33;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -141,4 +159,31 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participants-section {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #eef3fb;
+  border-radius: 4px;
+  border: 1px solid #c5cae9;
+}
+
+.participants-section strong {
+  color: #3949ab;
+  font-size: 15px;
+}
+
+.participants-list {
+  margin-top: 5px;
+  margin-left: 18px;
+  list-style-type: disc;
+  color: #333;
+  font-size: 15px;
+}
+
+.no-participants {
+  color: #888;
+  font-style: italic;
+  margin-left: 5px;
 }
